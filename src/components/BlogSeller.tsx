@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 interface ProductCardProps {
   image: string;
@@ -71,7 +71,7 @@ function ProductCard({ image, title, department, originalPrice, salePrice }: Pro
   return (
     <div className="w-full bg-white">
       <div className="relative aspect-[239/280] w-full overflow-hidden">
-        <img
+        <Image
           src={image}
           alt={title}
           className="object-cover w-full h-full"

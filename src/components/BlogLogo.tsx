@@ -1,3 +1,6 @@
+
+import Image from "next/image";
+
 export default function ClientLogos() {
     const clients = [
       {
@@ -35,7 +38,7 @@ export default function ClientLogos() {
                 key={client.name}
                 className="flex items-center justify-center w-[150px]"
               >
-                <img
+                <Image
                   src={client.logo}
                   alt={`${client.name} logo`}
                   className="max-h-[75px] w-auto grayscale opacity-70 hover:opacity-100 transition-opacity"

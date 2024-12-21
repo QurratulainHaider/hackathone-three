@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TestimonialSection() {
     return (
       <section className="relative w-full min-h-[636px] bg-[#2A7CC7] overflow-hidden">
@@ -9,7 +11,7 @@ export default function TestimonialSection() {
                 WORK WITH US
               </h5>
               <h2 className="font-montserrat font-bold text-3xl lg:text-4xl tracking-wider leading-tight">
-                Now Let's grow Yours
+                Now Let&apos;s grow Yours
               </h2>
               <p className="font-montserrat text-sm leading-relaxed tracking-wide max-w-[440px]">
                 The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th
@@ -21,7 +23,7 @@ export default function TestimonialSection() {
   
             {/* Right Column - Image */}
             <div className="flex-1 h-[636px] max-w-[500px]"> {/* Adjusted max width */}
-              <img
+              <Image
                 src="/images/pink gray.png"
                 alt="Professional in coral sweater"
                 className="w-full h-full object-cover"

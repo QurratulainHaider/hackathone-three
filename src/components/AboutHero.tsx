@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function ContentWithStats() {
   const stats = [
@@ -54,7 +55,7 @@ export default function ContentWithStats() {
 
       {/* Image Section */}
       <section className="flex justify-center py-8">
-        <img
+        <Image
           src="/images/media bg-cover.png"
           alt="Descriptive text"
           width="989"

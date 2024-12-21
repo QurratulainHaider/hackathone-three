@@ -14,10 +14,10 @@ export default function CTASection() {
             />
             {/* Content */}
             <h3 className="text-base font-bold text-[#252B42] text-center tracking-wide">
-              WE CAN'T WAIT TO MEET YOU
+              WE CAN&apos;T WAIT TO MEET YOU
             </h3>
             <h2 className="text-4xl md:text-[58px] font-bold text-[#252B42] text-center leading-[80px] tracking-[0.2px]">
-              Let's Talk
+              Let&apos;s Talk
             </h2>
             
             {/* Button */}

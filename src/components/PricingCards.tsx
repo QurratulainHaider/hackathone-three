@@ -93,7 +93,7 @@ export default function PricingSection() {
 
         {/* Pricing Cards */}
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {pricingTiers.map((tier, index) => (
+          {pricingTiers.map((tier) => (
             <div
               key={tier.name}
               className={`rounded-lg border border-[#23A6F0] p-10 flex flex-col items-center ${

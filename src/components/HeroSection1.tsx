@@ -1,11 +1,12 @@
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
     <div className="relative bg-transparent border-[#DEDEDE] rounded-[5px] overflow-hidden">
       {/* Background Image */}
       <div className="relative w-full h-[716px]">
-        <img
+        <Image
           src="/images/main g.png"
           alt="Model showcasing new collection"
           className="w-full h-full object-cover"

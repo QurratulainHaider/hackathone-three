@@ -2,7 +2,7 @@
 
 import { ChevronRight } from 'lucide-react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-
+import Image from "next/image"
 export default function ProductDescription() {
   return (
     <div className="w-full bg-white">
@@ -34,7 +34,7 @@ export default function ProductDescription() {
               {/* Image Column */}
               <div className="relative aspect-square md:aspect-[0.85]">
                 <div className="absolute inset-[3px] bg-[rgba(196,196,196,0.2)] rounded-md">
-                  <img
+                  <Image
                     src="/images/hp.png"
                     alt="Product"
                     className="w-full h-full object-cover rounded-md"

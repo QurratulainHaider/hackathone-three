@@ -28,7 +28,7 @@ export default function EditorsPick() {
     <section className="mx-auto max-w-7xl px-4 py-20">
       <div className="mb-12 text-center">
         <h2 className="mb-2.5 text-2xl font-bold leading-8 tracking-tight text-[#252B42]">
-          EDITOR'S PICK
+          EDITOR&apos;S PICK
         </h2>
         <p className="text-sm leading-5 tracking-wide text-[#737373]">
           Problems trying to resolve the conflict between

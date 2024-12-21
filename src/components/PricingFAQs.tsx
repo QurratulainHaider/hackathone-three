@@ -94,7 +94,7 @@ export default function FAQAndTrialSection() {
           </div>
 
           <p className="text-center text-[#737373] text-[20px] leading-[30px] mt-12">
-            Haven't got your answer? Contact our support
+            Haven&apos;t got your answer? Contact our support
           </p>
         </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram,  } from "react-icons/fa";
+import Image from "next/image";
 
 const FeatureSection: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ const FeatureSection: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Card 1 */}
           <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
-            <img
+            <Image
               src="/images/product/g7.png"
               alt="Card Image 1"
               className="w-full h-48 object-cover rounded-t-md mb-4"
@@ -43,7 +44,7 @@ const FeatureSection: React.FC = () => {
 
           {/* Card 2 */}
           <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
-            <img
+            <Image
               src="/images/o girl.png"
               alt="Card Image 2"
               className="w-full h-48 object-cover rounded-t-md mb-4"
@@ -67,7 +68,7 @@ const FeatureSection: React.FC = () => {
 
           {/* Card 3 */}
           <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
-            <img
+            <Image
               src="/images/b boy.png"
               alt="Card Image 3"
               className="w-full h-48 object-cover rounded-t-md mb-4"
