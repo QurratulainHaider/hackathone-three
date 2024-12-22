@@ -7,7 +7,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="relative w-full h-[716px]">
         <Image
-          src="/images/main g.png"
+          src="/images/main.png"
           alt="Model showcasing new collection"
           className="w-full h-full object-cover"
         />
