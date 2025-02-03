@@ -1,0 +1,27 @@
+
+> hackahon-new@0.1.0 build
+> next build
+
+   ▲ Next.js 15.1.2
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/15) ...
+   Generating static pages (3/15) 
+   Generating static pages (7/15) 
+Error occurred prerendering page "/register". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\.next\server\app\register\page.js:1:11850)
+    at o (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\.next\server\app\register\page.js:1:79542)
+    at nO (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:20:45959)
+    at nI (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:20:47734)
+    at nL (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:20:65533)
+    at nN (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:20:63164)
+    at n$ (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:20:46311)
+    at nI (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:20:47780)
+    at nI (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:20:62515)
+    at nL (C:\Users\CPT\OneDrive\Desktop\hackahon2sanity\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:20:65533)
+Export encountered an error on /register/page: /register, exiting the build.
+ ⨯ Static worker exited with code: 1 and signal: null

@@ -1,85 +1,54 @@
-export const products: ProductCard[] = [
-    {
-      id: 1,
-      title: "Graphic Design",
-      department: "English Department",
-      originalPrice: 16.48,
-      salePrice: 6.48,
-      image: "/images/card1.png",
-      colors: ["#23A6F0", "#23856D", "#E77C40", "#252B42"],
-    },
-    {
-      id: 2,
-      title: "Graphic Design",
-      department: "English Department",
-      originalPrice: 16.48,
-      salePrice: 6.48,
-      image: "/images/card2.png",
-      colors: ["#23A6F0", "#23856D", "#E77C40", "#252B42"],
-    },
-    {
-      id: 3,
-      title: "Graphic Design",
-      department: "English Department",
-      originalPrice: 16.48,
-      salePrice: 6.48,
-      image: "/images/pink.png",
-      colors: ["#23A6F0", "#23856D", "#E77C40", "#252B42"],
-    },
-    {
-      id: 4,
-      title: "Graphic Design",
-      department: "English Department",
-      originalPrice: 16.48,
-      salePrice: 6.48,
-      image: "/images/brown.png",
-      colors: ["#23A6F0", "#23856D", "#E77C40", "#252B42"],
-    },
-    {
-      id: 5,
-      title: "Graphic Design",
-      department: "English Department",
-      originalPrice: 16.48,
-      salePrice: 6.48,
-      image: "/images/card5.png",
-      colors: ["#23A6F0", "#23856D", "#E77C40", "#252B42"],
-    },
-    {
-      id: 6,
-      title: "Graphic Design",
-      department: "English Department",
-      originalPrice: 16.48,
-      salePrice: 6.48,
-      image: "/images/card6.png",
-      colors: ["#23A6F0", "#23856D", "#E77C40", "#252B42"],
-    },
-    {
-      id: 7,
-      title: "Graphic Design",
-      department: "English Department",
-      originalPrice: 16.48,
-      salePrice: 6.48,
-      image: "/images/card7.png",
-      colors: ["#23A6F0", "#23856D", "#E77C40", "#252B42"],
-    },
-    {
-      id: 8,
-      title: "Graphic Design",
-      department: "English Department",
-      originalPrice: 16.48,
-      salePrice: 6.48,
-      image: "/images/card8.png",
-      colors: ["#23A6F0", "#23856D", "#E77C40", "#252B42"],
-    },
-  ];
-  
-  export interface ProductCard {
-    id: number;
-    title: string;
-    department: string;
-    originalPrice: number;
-    salePrice: number;
-    image: string;
-    colors:string[];
-  }
-  
+// src/constant/product-card.ts
+export interface Product {
+  image: string;
+  name: string;
+  profession: string;
+}
+
+export const products: Product[] = [
+  {
+    image: "/images/product/g1.png",
+    name: "Username 1",
+    profession: "Profession 1",
+  },
+  {
+    image: "/images/product/g2.png",
+    name: "Username 2",
+    profession: "Profession 2",
+  },
+  {
+    image: "/images/product/g3.png",
+    name: "Username 3",
+    profession: "Profession 3",
+  },
+  {
+    image: "/images/product/g4.png",
+    name: "Username 4",
+    profession: "Profession 4",
+  },
+  {
+    image: "/images/product/g5.png",
+    name: "Username 5",
+    profession: "Profession 5",
+  },
+  {
+    image: "/images/product/g6.png",
+    name: "Username 6",
+    profession: "Profession 6",
+  },
+  {
+    image: "/images/product/g7.png",
+    name: "Username 7",
+    profession: "Profession 7",
+  },
+  {
+    image: "/images/product/g8.png",
+    name: "Username 8",
+    profession: "Profession 8",
+  },
+  {
+    image: "/images/product/g9.png",
+    name: "Username 9",
+    profession: "Profession 9",
+  },
+];

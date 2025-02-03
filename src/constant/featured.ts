@@ -1,4 +1,4 @@
-
+// src\constant\featured.ts
 export const posts = [
     {
       id: 1,

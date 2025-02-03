@@ -1,3 +1,4 @@
+// src/components/Footer.tsx
 import Link from "next/link";
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import { Button } from "@/components/ui/button";

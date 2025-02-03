@@ -1,4 +1,4 @@
-
+// src\constant\shopCard.ts
   
   export const shopCards: ShopCard[] = [
     {

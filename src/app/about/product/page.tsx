@@ -1,6 +1,7 @@
-import Product from "@/components/Product";
-import ProHero from "@/components/ProHero";
-import ProTeam from "@/components/ProTeam";
+// src\app\about\product\page.tsx
+import Product from "@/components/Product/Product";
+import ProHero from "@/components/Product/ProHero";
+import ProTeam from "@/components/Product/product-team";
 
  function ProductPage() { {
     return (

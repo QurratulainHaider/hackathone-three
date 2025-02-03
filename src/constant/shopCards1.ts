@@ -1,3 +1,4 @@
+// src/constant/shopCards1.ts
 export interface Product {
   image: string;
   title: string;

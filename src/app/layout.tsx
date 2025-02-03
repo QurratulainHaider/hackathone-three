@@ -1,9 +1,11 @@
 import React from "react";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import Footer from "@/components/Footer";  
 import "./globals.css";
+import Script from "next/script";
+import Footer from "@/components/Footer";
 
+// Fonts
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -27,12 +29,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" 
+        href="https://cdn.snipcart.com/themes/3.4.1/default/snipcart.css" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col h-screen`}
       >
+        <Script
+          src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"
+          strategy="afterInteractive"/>
+          
+         <div hidden id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY} data-config-modal-style="none"></div>
+
         {children}
-        
-        <Footer />
+        <Footer/>
       </body>
     </html>
   );

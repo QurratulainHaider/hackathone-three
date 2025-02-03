@@ -1,8 +1,9 @@
+// src/app/contact/page.tsx
 import React from 'react';
-import ContactHero from '@/components/ContactHero'; 
-import BlueHeader from '@/components/BlueHeader'; 
-import ContactOffice from '@/components/ContactOffice';
-import ContactTalk from '@/components/ContactTalk';
+import ContactHero from '@/components/Contact/ContactHero'; 
+import BlueHeader from '@/components/Pricing/BlueHeader'; 
+import ContactOffice from '@/components/Contact/ContactOffice';
+import ContactTalk from '@/components/Contact/ContactTalk';
 
 export default function ContactPage() {
   return (

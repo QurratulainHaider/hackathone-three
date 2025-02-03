@@ -1,14 +1,15 @@
+// src\app\about\pricing\page.tsx
+import BlueHeader from "@/components/Pricing/BlueHeader";
+import PricingComponent from "@/components/Pricing/Pricing";
+import PricingCards from "@/components/Pricing/PricingCards";
+import PricingFAQs from "@/components/Pricing/PricingFAQs";
+import PricingLogo from "@/components/Pricing/PricingLogo";
 
-import BlueHeader from "@/components/BlueHeader";
-import Pricing from "@/components/Pricing";
-import PricingCards from "@/components/PricingCards";
-import PricingFAQs from "@/components/PricingFAQs";
-import PricingLogo from "@/components/PricingLogo";
-export default function PricingPage() { {
+export default function Pricing() { {
     return (
       <div className="px-[135px] ">
         <BlueHeader/>
-        <Pricing/>
+        <PricingComponent/>
         <PricingCards/>
         <PricingLogo/>
         <PricingFAQs/>
