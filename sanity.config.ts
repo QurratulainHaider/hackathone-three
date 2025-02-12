@@ -1,17 +1,13 @@
-'use client';
-
-import { visionTool } from '@sanity/vision';
+// src/sanity/sanity.config.ts
 import { defineConfig } from 'sanity';
-
-import { apiVersion, dataset, projectId } from '@/sanity/env';
-import { schema } from '@/sanity/schemaTypes';
+import { deskTool } from 'sanity/desk';
+import { schema as schemaTypes } from '@/sanity/schemaTypes'
 
 export default defineConfig({
-  basePath: '/studio',
-  projectId: projectId as string, // 🔹 Ensuring it’s a string
-  dataset: dataset as string,
-  schema,
-  plugins: [
-    visionTool({ defaultApiVersion: apiVersion }),
-  ],
-});
+  name: 'default',
+  title: 'My Sanity Studio',
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET!,
+  plugins: [deskTool()],
+  schema: schemaTypes,
+});;

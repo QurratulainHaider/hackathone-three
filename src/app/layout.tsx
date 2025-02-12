@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Script from "next/script";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 
 // Fonts
 const geistSans = localFont({
@@ -43,7 +43,7 @@ export default function RootLayout({
          <div hidden id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY} data-config-modal-style="none"></div>
 
         {children}
-        <Footer/>
+        {/* <Footer/> */}
       </body>
     </html>
   );
